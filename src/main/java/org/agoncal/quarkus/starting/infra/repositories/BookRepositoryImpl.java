@@ -22,4 +22,5 @@ public class BookRepositoryImpl implements BookRepository {
                 .stream()
                 .filter(book -> book.id() == id).findFirst();
     }
+
 }
